@@ -1,4 +1,4 @@
-# Positional Encoding(UPDATING)
+# Positional Encoding
 Positional encoding describes the location or position of an entity in a sequence so that each position is assigned a unique representation. There are many reasons why a single number, such as the index value, is not used to represent an item’s position in transformer models. For long sequences, the indices can grow large in magnitude. If you normalize the index value to lie between 0 and 1, it can create problems for variable length sequences as they would be normalized differently.
 
 ![](https://machinelearningmastery.com/wp-content/uploads/2022/01/PE3.png)
